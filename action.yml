@@ -1,4 +1,4 @@
-name: 'Slack Notify'
+name: 'Slack Notify Action'
 description: 'Slack Notification for Github Actions'
 author: baijunyao
 inputs:
@@ -6,6 +6,14 @@ inputs:
     description: 'Action Status'
     required: true
     default: 'success'
+  slack_bot_token:
+    description: 'Slack Bot Token'
+    required: true
+    default: ''
+  channel:
+    description: 'Slack Channel'
+    required: true
+    default: ''
 runs:
   using: 'node12'
   main: 'lib/main.js'
