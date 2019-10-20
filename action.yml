@@ -2,10 +2,14 @@ name: 'Slack Notify Action'
 description: 'Slack Notification for Github Actions'
 author: baijunyao
 inputs:
-  status:
-    description: 'Action Status'
+  github_context:
+    description: 'GitHub Context'
     required: true
-    default: 'success'
+    default: ''
+  job_context:
+    description: 'Job Context'
+    required: true
+    default: ''
   slack_bot_token:
     description: 'Slack Bot Token'
     required: true
