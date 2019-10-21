@@ -4,9 +4,10 @@
 - name: Notify slack
   uses: baijunyao/action-slack-notify@master
   with:
-    - slack_bot_token: ${{ secrets.SLACK_BOT_TOKEN }}
-      status: success
-      channel: CEWJP77BP
+    channel: GN87KBVDG
+    slack_bot_token: ${{ secrets.SLACK_BOT_TOKEN }}
+    github_context: ${{ toJson(github) }}
+    job_context: ${{ toJson(job) }}
 ```
 
 ## Setup
