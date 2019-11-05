@@ -3,6 +3,7 @@
 ```yaml
 - name: Notify slack
   uses: baijunyao/action-slack-notify@master
+  if: always()
   with:
     channel: GN87KBVDG
     slack_bot_token: ${{ secrets.SLACK_BOT_TOKEN }}
