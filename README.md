@@ -14,3 +14,6 @@
 ## Setup
 1. [Creating a Slack App](https://github.com/pullreminders/slack-action/blob/master/README.md#creating-a-slack-app)
 2. [Using the action](https://github.com/pullreminders/slack-action/blob/master/README.md#using-the-action)
+
+## Example
+- [laravel-bjyblog](https://github.com/baijunyao/laravel-bjyblog/blob/master/.github/workflows/ci.yml)
