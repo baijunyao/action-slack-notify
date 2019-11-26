@@ -16,4 +16,4 @@
 2. [Using the action](https://github.com/pullreminders/slack-action/blob/master/README.md#using-the-action)
 
 ## Example
-- [laravel-bjyblog](https://github.com/baijunyao/laravel-bjyblog/blob/master/.github/workflows/ci.yml)
+- [laravel-bjyblog](https://github.com/baijunyao/laravel-bjyblog/blob/master/.github/workflows/push.yml)
