@@ -1,7 +1,7 @@
 ## Usage
 ```yaml
 - name: Notify slack
-  uses: baijunyao/action-slack-notify@master
+  uses: baijunyao/action-slack-notify@v2.1.0
   if: always()
   with:
     channel: GN87KBVDG
