@@ -25,7 +25,7 @@
 ![](./docs/add-token-to-secret.png)
 
 ## Example
-- [laravel-bjyblog](https://github.com/baijunyao/laravel-bjyblog/blob/master/.github/workflows/push.yml)
+- [laravel-bjyblog](https://github.com/baijunyao/laravel-bjyblog/blob/v6.14.1/.github/workflows/PHP-CS-Fixer.yml)
 
 ## Thanks
 - [pullreminders/slack-action](https://github.com/pullreminders/slack-action)
