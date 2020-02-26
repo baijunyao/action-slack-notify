@@ -4,7 +4,7 @@
   uses: baijunyao/action-slack-notify@v2.2.0
   if: always()
   with:
-    channel: GN87KBVDG
+    channel: your_channel_id
     slack_bot_token: ${{ secrets.SLACK_BOT_TOKEN }}
     github_context: ${{ toJson(github) }}
     job_context: ${{ toJson(job) }}
@@ -23,6 +23,8 @@
 ![](./docs/bot-user-oauth-access-token.png)
 6. Add the "Bot User OAuth Access Token" to GitHub secret
 ![](./docs/add-token-to-secret.png)
+7. Get channel ID
+![](./docs/get-channel-id.png)
 
 ## Example
 - [laravel-bjyblog](https://github.com/baijunyao/laravel-bjyblog/blob/v6.14.1/.github/workflows/PHP-CS-Fixer.yml)
