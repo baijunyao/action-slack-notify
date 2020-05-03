@@ -2,22 +2,23 @@ name: 'Slack Notify Action'
 description: 'Slack Notification for Github Actions'
 author: baijunyao
 inputs:
-  github_context:
-    description: 'GitHub Context'
-    required: true
-    default: ''
-  job_context:
-    description: 'Job Context'
-    required: true
-    default: ''
   slack_bot_token:
     description: 'Slack Bot Token'
     required: true
     default: ''
-  channel:
+  slack_channel_id:
     description: 'Slack Channel'
     required: true
     default: ''
+  github_context:
+    description: 'GitHub Context'
+    required: true
+    default: ''
+  github_token:
+    description: The GitHub token used to create an authenticated client
+    required: false
+    default: ${{ github.token }}
+
 runs:
   using: 'node12'
   main: 'lib/main.js'
