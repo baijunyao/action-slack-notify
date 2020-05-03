@@ -4,10 +4,9 @@
   uses: baijunyao/action-slack-notify@v2.2.0
   if: always()
   with:
-    channel: your_channel_id
+    slack_channel_id: your_channel_id
     slack_bot_token: ${{ secrets.SLACK_BOT_TOKEN }}
     github_context: ${{ toJson(github) }}
-    job_context: ${{ toJson(job) }}
 ```
 
 ## Setup
