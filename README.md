@@ -26,7 +26,7 @@
 ![](./docs/get-channel-id.png)
 
 ## Example
-- [laravel-bjyblog](https://github.com/baijunyao/laravel-bjyblog/blob/v6.14.1/.github/workflows/PHP-CS-Fixer.yml)
+- [laravel-bjyblog](https://github.com/baijunyao/laravel-bjyblog/blob/fba111e2fb497a4eb7a02bd9409a9c21f09b1adb/.github/workflows/CI.yml#L411)
 
 ## Thanks
 - [pullreminders/slack-action](https://github.com/pullreminders/slack-action)
