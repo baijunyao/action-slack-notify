@@ -1,3 +1,7 @@
+## Preview
+![](./docs/success.png)  
+![](./docs/failed.png)  
+
 ## Usage
 ```yaml
 - name: Notify slack
