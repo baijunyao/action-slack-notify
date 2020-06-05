@@ -5,7 +5,7 @@
 ## Usage
 ```yaml
 - name: Notify slack
-  uses: baijunyao/action-slack-notify@v2.2.0
+  uses: baijunyao/action-slack-notify@v3.0.1
   if: always()
   with:
     slack_channel_id: your_channel_id
