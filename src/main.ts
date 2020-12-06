@@ -58,7 +58,7 @@ async function run() {
         type: "section",
         text: {
           type: "mrkdwn",
-          text: "*Commit Message:* <" + commitUrl + '|' + github_context.event.head_commit.message + ">"
+          text: "*Commit Message:* <" + commitUrl + '|' + github_context.event.head_commit.message.split("\n")[0] + ">"
         }
       },
       {
