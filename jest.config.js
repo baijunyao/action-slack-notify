@@ -5,7 +5,11 @@ module.exports = {
   testMatch: ['**/*.test.ts'],
   testRunner: 'jest-circus/runner',
   transform: {
-    '^.+\\.ts$': 'ts-jest'
+    '^.+\\.ts$': 'ts-jest',
   },
-  verbose: true
-}
+  verbose: true,
+  coverageDirectory: './coverage/',
+  collectCoverage: true,
+  preset: 'ts-jest',
+  globalSetup: './__tests__/setupTest.ts',
+};
