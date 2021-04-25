@@ -552,6 +552,11 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@vercel/ncc@^0.28.3":
+  version "0.28.3"
+  resolved "https://registry.npm.taobao.org/@vercel/ncc/download/@vercel/ncc-0.28.3.tgz#9461bdbf334d616759b0e7e5415e2f480b9aa30f"
+  integrity sha1-lGG9vzNNYWdZsOflQV4vSAuaow8=
+
 abab@^2.0.0:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/abab/download/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
