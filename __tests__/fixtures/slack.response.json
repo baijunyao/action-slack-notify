@@ -1,0 +1,65 @@
+{
+  "ok":true,
+  "channel":"87NBVDGKG",
+  "ts":"1618405405.000200",
+  "message":{
+    "type":"message",
+    "subtype":"bot_message",
+    "text":"",
+    "ts":"1618405405.000200",
+    "username":"GitHub Actions",
+    "bot_id":"LMGHG0RMB",
+    "attachments":[
+      {
+        "id":1,
+        "blocks":[
+          {
+            "type":"section",
+            "block_id":"K1o",
+            "fields":[
+              {
+                "type":"mrkdwn",
+                "text":"*Status:* Success",
+                "verbatim":false
+              },
+              {
+                "type":"mrkdwn",
+                "text":"*Workflow:* <https://github.com/baijunyao/laravel-bjyblog/commit/9385b14ce9f451ed5f40302c2497e198aa066b9c/checks|PHP7.4+MySQL5.7>",
+                "verbatim":false
+              }
+            ]
+          },
+          {
+            "type":"section",
+            "block_id":"mL3",
+            "text":{
+              "type":"mrkdwn",
+              "text":"*Branch:* <https://github.com/baijunyao/laravel-bjyblog/tree/feature/action-slack-notify|feature/action-slack-notify>",
+              "verbatim":false
+            }
+          },
+          {
+            "type":"section",
+            "block_id":"EZhq",
+            "text":{
+              "type":"mrkdwn",
+              "text":"*Commit Message:* <https://github.com/baijunyao/laravel-bjyblog/commit/9385b14ce9f451ed5f40302c2497e198aa066b9c/|Tmp>",
+              "verbatim":false
+            }
+          },
+          {
+            "type":"section",
+            "block_id":"DPBqD",
+            "text":{
+              "type":"mrkdwn",
+              "text":"*Commit ID:* 9385b14ce9f451ed5f40302c2497e198aa066b9c",
+              "verbatim":false
+            }
+          }
+        ],
+        "color":"#008000",
+        "fallback":"[no preview available]"
+      }
+    ]
+  }
+}
